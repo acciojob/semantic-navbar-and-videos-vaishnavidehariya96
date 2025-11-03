@@ -1,2 +1,61 @@
+/* General Page Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
 
-/* Your CSS Code here. */
+/* Navbar Styling */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff9800;
+  text-decoration: underline;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+/* Video Section */
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+video {
+  width: 320px;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  background-color: black;
+}
